@@ -83,6 +83,7 @@ const configureRequest = ({ access_key, secret_key }: AuthInfo) => {
     const token = createSignedPayload(params);
 
     return {
+      params,
       headers: {
         Authorization: `Bearer ${token}`,
       },
