@@ -38,6 +38,10 @@ type CodeUnauthorized =
   | 'out_of_scope'
   ;
 
+/**
+ * # API 주요 에러 코드 목록
+ * [Upbit Reference](https://docs.upbit.com/docs/api-주요-에러-코드-목록#401-unauthorized)
+ */
 export type UpbitApiError<
   T extends CodeBadRequest | CodeUnauthorized = CodeBadRequest | CodeUnauthorized
 > = {
