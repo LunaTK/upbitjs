@@ -1,0 +1,33 @@
+{
+  "name": "upbitjs",
+  "version": "0.1.0",
+  "description": "JavaScript library for Upbit API",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint 'src/**/*.{ts,js}'",
+    "lint:fix": "eslint --fix 'src/**/*.{ts,js}'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LunaTK/upbitjs.git"
+  },
+  "author": "Taegeun Moon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LunaTK/upbitjs/issues"
+  },
+  "homepage": "https://github.com/LunaTK/upbitjs#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  }
+}
